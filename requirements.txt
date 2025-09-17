@@ -19,11 +19,6 @@ tensorflow-datasets
 tensorflow-hub
 tensorflow-probability
 
-##### Reinforcement Learning library (chapter 18)
-#gymnasium==0.29.1
-#gymnasium[atari,box2d,accept-rom-license]
-#tf-agents
-
 ##### Image manipulation
 Pillow
 graphviz
