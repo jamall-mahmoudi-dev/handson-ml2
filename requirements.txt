@@ -23,12 +23,6 @@ tensorflow-datasets
 tensorflow-hub
 tensorflow-probability
 
-# Optional: only used in chapter 13.
-tfx
-
-# Optional: only used in chapter 16.
-tensorflow-addons
-
 ##### Reinforcement Learning library (chapter 18)
 gym[Box2D,atari,accept-rom-license]
 tf-agents
