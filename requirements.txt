@@ -7,16 +7,12 @@ scipy
 
 ##### Machine Learning packages
 scikit-learn
-
-# Optional: the XGBoost library is only used in chapter 7
 xgboost
-
-# Optional: the transformers library is only used in chapter 16
 transformers
 
 ##### TensorFlow-related packages
 tensorflow
-tensorflow-serving-api   # or tensorflow-serving-api-gpu if GPU
+tensorflow-serving-api
 tensorboard
 tensorboard-plugin-profile
 tensorflow-datasets
@@ -24,7 +20,8 @@ tensorflow-hub
 tensorflow-probability
 
 ##### Reinforcement Learning library (chapter 18)
-gym[Box2D,atari,accept-rom-license]
+gymnasium==0.29.1
+gymnasium[atari,box2d,accept-rom-license]
 tf-agents
 
 ##### Image manipulation
